@@ -29,7 +29,7 @@ NOTIFY=success
 
 
 # behavior when blocking processes are found
-BLOCKING_PROCESS_ACTION=kill
+BLOCKING_PROCESS_ACTION=prompt_user
 # options:
 #   - ignore       continue even when blocking processes are found
 #   - silent_fail  exit script without prompt or installation
